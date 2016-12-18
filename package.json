@@ -1,0 +1,26 @@
+{
+  "name": "kinda-ui-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "webpack",
+    "postbuild": "node scripts/write-component-entry"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-beta.4",
+    "react": "^15.4.1",
+    "style-loader": "^0.13.1",
+    "webpack": "2.2.0-rc.1"
+  }
+}

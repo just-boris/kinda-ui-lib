@@ -1,0 +1,8 @@
+.input {
+    padding: 5px 10px;
+    border: 1px solid #efefef;
+}
+
+.input:active {
+    border-color: #ddd;
+}
